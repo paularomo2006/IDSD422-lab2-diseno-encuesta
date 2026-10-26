@@ -1,10 +1,11 @@
 # Plantilla de diseño — Encuesta de satisfacción (hito 1)
 
 **Equipo:** ___ · **Integrantes:** Encalada Emanuel, Fogacho Eduardo, Tituaña Emily, Peñaloza Tabatha, Romo Paula  · **Fecha:** 26/10/2026
+
 **Repositorio (fork):** github.com/paularomo2006/IDSD422-lab2-diseno-encuesta
+
 **Enfoque del equipo (aprobado en clase):**  Precios - percepción frente a la competencia
 
-Completa cada sección. Usa commits por sección; la historia del repositorio se revisa.
 
 > **Formato del entregable:** exporta esta plantilla completada a PDF, con el enlace de tu fork en la carátula, y guarda el PDF en `informes/` del fork. Entrega el PDF y el enlace del fork en el aula virtual.
 
@@ -28,37 +29,35 @@ Con este método se podrán conocer las opiniones de las personas de diferentes 
 
 - Cómo se seleccionarán los participantes:
 Buscar a las personas que cumplan con los requisitos de la población objetivo, pero primero se debe tomar en cuenta que esta será dividida en los dos grupos de edad. Después se puede incluir personas al azar de los dos grupos para comparar percepciones. 
-
 En el caso de haber personas que respondan a la encuesta y no cumplan los requisitos, sus respuestas no serán consideradas para el análisis final, con esto nos aseguraremos de trabajar con las personas que cumplen con las características definidas en la encuesta.  
 
 - **Equivalente en código (Python o R):** la línea que implementa tu método sobre un CSV de clientes (aleatorio simple, estratificado o conveniencia) con el resultado de una corrida con semilla, y una frase sobre por qué tu método (y no la conveniencia) justifica el hito.
 
+```python
 import pandas as pd 
 
 df = pd.read_csv("clientes.csv") 
 
 # Dividir a los participantes en dos grupos de edad 
-
 df["grupo_edad"] = df["edad"].apply( 
-  lambda edad: "25 a 35 años" 
-  if 25 <= edad <= 35 
-  else "Mayores de 35 años" 
-  if edad > 35 
-  else None 
+    lambda edad: "25 a 35 años" 
+    if 25 <= edad <= 35 
+    else "Mayores de 35 años" 
+    if edad > 35 
+    else None 
 ) 
 
 # Excluir registros que no pertenecen a la población 
-
 df = df.dropna(subset=["grupo_edad"]) 
 
 # Seleccionar participantes al azar dentro de cada grupo 
-
 muestra = ( 
-  df.groupby("grupo_edad", group_keys=False) 
-  .sample(n=10, random_state=42) 
+    df.groupby("grupo_edad", group_keys=False) 
+    .sample(n=10, random_state=42) 
 ) 
 
 print(muestra) 
+```
 
 El método de muestreo estratificado fue escogido a diferencia de la conveniencia para evitar el sesgo de la recolección de datos de un grupo de fácil acceso. Dicho de esta manera, decidimos dividirla en personas entre 25 a 35 años como adultos jóvenes y la gente superior a 35 años como adultos. Todo esto debido a que buscamos llegar a las personas que ya presentan una solvencia económica siendo adultos jóvenes y a su vez, personas mayores de 35 años que comúnmente ya tienen sus hogares y buscan optimizar su presupuesto familiar maximizando la relación calidad-precio.  
 
