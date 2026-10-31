@@ -77,7 +77,7 @@ El método de muestreo estratificado fue escogido a diferencia de la convenienci
 | 3 |¿En qué rango de edad se encuentra?   |Categórica ordinal |object |Menos de 25 años, 25 a 35 años, 36 años o más |
 | 4 |¿Qué tan atractivas considera las promociones y descuentos que ofrece RetailAndina?  |Categórica ordinal |object |1)Nada atractivas  2) Poco Atractivas 3)Neutral 4)Atractivas 5)Muy atractivas, Aparte: No conozco sus promociones  |
 | 5 |¿En qué rango se ubica su gasto mensual aproximado en supermercados?   |Categórica ordinal  |object  |Menos de $100, Entre $100 - $250, Superior a $250   |
-| 6 |¿Estaría dispuesto a inscribirse en un programa de fidelización gratuito para obtener precios especiales?   |Categórica ordinal  |object  |1)Nada dispuesto, 2)Poco dispuesto, 3)Neutral, 4)Dispuesto, 5)Muy dispuesto, Aparte: No sabe.   |
+| 6 |¿Qué tan dispuesto o dispuesta estaría a inscribirse en un programa de fidelización de RetailAndina?   |Categórica ordinal  |object  |1)Nada dispuesto, 2)Poco dispuesto, 3)Neutral, 4)Dispuesto, 5)Muy dispuesto, Aparte: No sabe.   |
 | 7 |¿Qué categoría de productos compra con más frecuencia?   |Categórica nominal  |object  |Abarrotes(arroz, lentejas,etc) Cárnicos, Lácteos, Limpieza del hogar, Cuidado personal, Bebidas, Otro(especifique)  |
 | 8 |¿Con qué supermercado compara principalmente los precios de RetailAndina? | Categórica nominal | object | Supermaxi, Mi Comisariato, Coral, Tía, Otro (especifique), No compara precios |
 
