@@ -20,8 +20,6 @@ Conocer que opinan los clientes sobre los precios de Retail Andina en comparaci�
 
 ## 3. Método de muestreo
 
-*Elige aleatorio simple, estratificado o conveniencia y justifica. Meta: 15–30 respuestas reales (3–6 por integrante); opcional: relleno simulado hasta 60–100 filas marcadas con la columna `origen`.*
-
 - Método: Estratificado por grupos de edad 
 - Tamaño y justificación:
 Se buscará obtener entre 15 a 25 respuestas donde participe la población que fue definida. La muestra será dividida en dos grupos: personas que rondaran entre los 25 a 35 años y personas mayores de 35 años. 
