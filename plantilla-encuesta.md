@@ -94,7 +94,7 @@ El método de muestreo estratificado fue escogido a diferencia de la convenienci
 ## 6. Confidencialidad (RA3)
 
 - Datos personales que se piden y por qué:
-En este caso, no será necesario pedir nombres, números de cédula, teléfonos ni correos electrónicos. Solo necesitaremos la edad, ya que, con esa información, a cada persona se la puede segmentar de acuerdo al grupo que pertenece, si está entre 25 a 35 años o es superior a los 35 años.
+En este caso, no será necesario pedir nombres, números de cédula, teléfonos ni correos electrónicos. Solo necesitaremos la edad, ya que, con esa información, a cada persona se la puede segmentar de acuerdo al grupo que pertenece, si está entre 25 a 35 años o es superior a los 36 años.
 
 - Plan de anonimización (qué se quita o codifica antes de compartir):
 Como la encuesta es anónima desde el inicio, no tendremos datos privados que ocultar. Sin embargo, antes de entregar el archivo final, procederemos con la revisión de las respuestas de texto para asegurarnos de borrar cualquier nombre propio o dato personal que el cliente haya escrito por accidente.  
