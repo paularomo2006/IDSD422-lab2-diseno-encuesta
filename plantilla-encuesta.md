@@ -1,6 +1,6 @@
 # Plantilla de diseño — Encuesta de satisfacción (hito 1)
 
-**Equipo:** ___ · **Integrantes:** Encalada Emanuel, Fogacho Eduardo, Tituaña Emily, Peñaloza Tabatha, Romo Paula  · **Fecha:** 26/10/2026
+**Equipo:** 4 · **Integrantes:** Encalada Emanuel, Fogacho Eduardo, Tituaña Emily, Peñaloza Tabatha, Romo Paula  · **Fecha:** 26/10/2026
 
 **Repositorio (fork):** github.com/paularomo2006/IDSD422-lab2-diseno-encuesta
 
@@ -67,8 +67,8 @@ El método de muestreo estratificado fue escogido a diferencia de la convenienci
 |---|---|---|---|---|
 | 1 |¿Cuál es el principal motivo por el que elige comprar en RetailAndina?  |Categórica nominal |object |Precio, calidad, cercanía, variedad, promociones, otro  |
 | 2 |¿Cómo considera los precios de RetailAndina en comparación con otros supermercados?  |Categórica ordinal |object |Mucho más económicos, Algo más económicos, Similares, Algo más caros, Mucho más caros, No puedo compararlos   |
-| 3 |¿En qué rango de edad se encuentra?   |Categórica ordinal |object |Menor de 25 años, De 25 a 35 años, De 36 años en adelante  |
-| 4 |¿Qué tan atractivas considera las promociones y descuentos que ofrece RetailAndina?  |Categórica ordinal |object |5)Muy atractivas  4)Atractivas 3)Poco atractivas 2)Nada atractivas 1)No conozco sus promociones  |
+| 3 |¿En qué rango de edad se encuentra?   |Categórica ordinal |object |Menor de 24 años, De 25 a 35 años, De 36 años en adelante  |
+| 4 |¿Qué tan atractivas considera las promociones y descuentos que ofrece RetailAndina?  |Categórica ordinal |object |1)Nada atractivas  2) Poco Atractivas 3)Neutral 4)Atractivas 5)Muy atractivas  |
 | 5 |¿En qué rango se ubica su gasto mensual aproximado en supermercados?   |Categórica ordinal  |object  |Menos de $100, Entre $100 - $250, Superior a $250   |
 | 6 |¿Estaría dispuesto a inscribirse en un programa de fidelización gratuito para obtener precios especiales?   |Ctegórica binaria  |object  |Si, No  |
 | 7 |¿Qué categoría de productos compra con más frecuencia?   |Categórica nominal  |object  |Abarrotes(arroz, lentejas,etc) Cárnicos, Lácteos, Limpieza del hogar, Cuidado personal   |
