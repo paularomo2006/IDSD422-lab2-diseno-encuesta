@@ -33,28 +33,37 @@ En el caso de haber personas que respondan a la encuesta y no cumplan los requis
 
 ```python
 import pandas as pd 
+df = pd.read_csv(url_400)
 
-df = pd.read_csv("clientes.csv") 
+# Filtrar clientes que viven en Quito 
+df = df[df["ciudad"] == "Quito"].copy()
 
-# Dividir a los participantes en dos grupos de edad 
+# Clasificar los clientes por grupos de edad 
 df["grupo_edad"] = df["edad"].apply( 
-    lambda edad: "25 a 35 años" 
-    if 25 <= edad <= 35 
-    else "Mayores de 35 años" 
-    if edad > 35 
+    lambda edad: "25 a 35 años" if 25 <= edad <= 35 
+    else "Mayores de 36 años" if edad > 36 
     else None 
 ) 
 
-# Excluir registros que no pertenecen a la población 
+# Excluir registros que no pertenecen a los grupos 
 df = df.dropna(subset=["grupo_edad"]) 
 
-# Seleccionar participantes al azar dentro de cada grupo 
+# Seleccionar hasta 10 clientes por cada grupo 
 muestra = ( 
     df.groupby("grupo_edad", group_keys=False) 
-    .sample(n=10, random_state=42) 
+    .apply( 
+        lambda grupo: grupo.sample( 
+            n=min(10, len(grupo)), 
+            random_state=42 
+         ) 
+     ) 
 ) 
-
+ 
+print("Clientes seleccionados:") 
 print(muestra) 
+
+print("\nCantidad de clientes por grupo:") 
+print(muestra["grupo_edad"].value_counts()) 
 ```
 
 El método de muestreo estratificado fue escogido a diferencia de la conveniencia para evitar el sesgo de la recolección de datos de un grupo de fácil acceso. Dicho de esta manera, decidimos dividirla en personas entre 25 a 35 años como adultos jóvenes y la gente superior a 35 años como adultos. Todo esto debido a que buscamos llegar a las personas que ya presentan una solvencia económica siendo adultos jóvenes y a su vez, personas mayores de 35 años que comúnmente ya tienen sus hogares y buscan optimizar su presupuesto familiar maximizando la relación calidad-precio.  
@@ -65,7 +74,7 @@ El método de muestreo estratificado fue escogido a diferencia de la convenienci
 |---|---|---|---|---|
 | 1 |¿Cuál es el principal motivo por el que elige comprar en RetailAndina?  |Categórica nominal |object |Precio, calidad, cercanía, variedad, promociones, otro  |
 | 2 |¿Cómo considera los precios de RetailAndina en comparación con otros supermercados?  |Categórica ordinal |object |Mucho más económicos, Algo más económicos, Similares, Algo más caros, Mucho más caros, Aparte: No sabe o no puede comparar  |
-| 3 |¿En qué rango de edad se encuentra?   |Categórica ordinal |object |Menor de 24 años, De 25 a 35 años, De 36 años en adelante  |
+| 3 |¿En qué rango de edad se encuentra?   |Categórica ordinal |object |Menos de 25 años, 25 a 35 años, 36 años o más |
 | 4 |¿Qué tan atractivas considera las promociones y descuentos que ofrece RetailAndina?  |Categórica ordinal |object |1)Nada atractivas  2) Poco Atractivas 3)Neutral 4)Atractivas 5)Muy atractivas, Aparte: No conozco sus promociones  |
 | 5 |¿En qué rango se ubica su gasto mensual aproximado en supermercados?   |Categórica ordinal  |object  |Menos de $100, Entre $100 - $250, Superior a $250   |
 | 6 |¿Estaría dispuesto a inscribirse en un programa de fidelización gratuito para obtener precios especiales?   |Categórica ordinal  |object  |1)Nada dispuesto, 2)Poco dispuesto, 3)Neutral, 4)Dispuesto, 5)Muy dispuesto, Aparte: No sabe.   |
@@ -77,12 +86,10 @@ El método de muestreo estratificado fue escogido a diferencia de la convenienci
 
 ## 5. Análisis de sesgos
 
-*Identifica 2 problemas potenciales de esta encuesta y su mitigación.*
-
 | Sesgo potencial | Mitigación |
 |---|---|
-| 1. |En las preguntas sobre la comparación de precios y atractivo de promociones algunas personas podrían responder sin conocer suficientemente los precios o recordarlos incorrectamente afectando sus comparaciones. |
-| 2. |Los encuestados pueden tener diferentes criterios sobre qué significa que un precio sea alto o bajo, lo que puede afectar la comparación entre supermercados. |
+| 1. Sesgo de respuesta: Algunos participantes podrían no recordar correctamente los precios o promociones de RetailAndina y otros supermercados, lo que podría afectar sus comparaciones.  |Incluir opciones como "No sabe o no puede comparar" y "No conozco sus promociones". Además, realizar una prueba piloto del cuestionario y, cuando sea posible, utilizar precios de referencia para facilitar las comparaciones.  |
+| 2. Sesgo de selección: Al encuestar principalmente a familiares, amigos y conocidos, es posible que sus opiniones no representen a todos los clientes de RetailAndina. |Establecer cuotas por grupos de edad para evitar concentrar las respuestas en un solo grupo. También se declarará que el muestreo es no probabilístico por cuotas y que los resultados no pueden generalizarse a toda la población.  |
 
 ## 6. Confidencialidad (RA3)
 
