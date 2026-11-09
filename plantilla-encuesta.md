@@ -69,7 +69,7 @@ print("\nCantidad de clientes por grupo:")
 print(muestra["grupo_edad"].value_counts()) 
 ```
 
-El método de muestreo estratificado fue escogido a diferencia de la conveniencia para evitar el sesgo de la recolección de datos de un grupo de fácil acceso. Dicho de esta manera, decidimos dividirla en personas entre 25 a 35 años como adultos jóvenes y la gente superior a 35 años como adultos. Todo esto debido a que buscamos llegar a las personas que ya presentan una solvencia económica siendo adultos jóvenes y a su vez, personas mayores de 35 años que comúnmente ya tienen sus hogares y buscan optimizar su presupuesto familiar maximizando la relación calidad-precio.  
+El código utiliza la base de los 400 clientes de Retail Andina. Primero, se selecciona a los clientes que viven en Quito para después clasificarlos en los dos grupos de edad y se eligen hasta 10 registros por grupo utilizando min(10, len(grupo)), con el fin de evitar errores en el caso de que la cantidad de registros disponibles sea menor a 10. 
 
 ## 4. Cuestionario (5–10 preguntas)
 
