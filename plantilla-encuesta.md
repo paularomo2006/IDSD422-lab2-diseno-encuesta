@@ -27,8 +27,10 @@ En un inicio, los encuestados corresponden a todas aquellas personas que se encu
 Se busca obtener entre 15 a 25 respuestas donde participe la población objetivo entre los dos grupos de edad. El objetivo de realizar dicha separación por estratos es comparar la percepción de los precios de RetailAndina considerando que las responsabilidades económicas, los hábitos de consumo y las prioridades al momento de realizar compras pueden variar entre personas de distintas edades. Siendo que estas diferencias podrían influir directamente en la forma en que los clientes perciben los precios y la manera en que los comparan con los de otros supermercados.
 
 - Cómo se seleccionarán los participantes:
-Buscar a las personas que cumplan con los requisitos de la población objetivo, pero primero se debe tomar en cuenta que esta será dividida en los dos grupos de edad. Después se puede incluir personas al azar de los dos grupos para comparar percepciones. 
-En el caso de haber personas que respondan a la encuesta y no cumplan los requisitos, sus respuestas no serán consideradas para el análisis final, con esto nos aseguraremos de trabajar con las personas que cumplen con las características definidas en la encuesta.  
+Los participantes serán todas aquellas personas fácilmente accesibles por los miembros del equipo. Por esto, entiéndase amigos, familiares o conocidos que, a su vez, cumplen con las características planteadas en la descripción de la población. 
+
+En el caso de haber personas que respondan a la encuesta y no cumplan los requisitos establecidos, sus respuestas no serán consideradas para el análisis final. De esta manera, nos aseguraremos de trabajar con las personas que pertenezcan a la población definida. 
+
 
 - **Equivalente en código (Python o R):** la línea que implementa tu método sobre un CSV de clientes (aleatorio simple, estratificado o conveniencia) con el resultado de una corrida con semilla, y una frase sobre por qué tu método (y no la conveniencia) justifica el hito.
 
