@@ -22,8 +22,9 @@ Conocer que opinan los clientes sobre los precios de Retail Andina en comparaci�
 
 - Método: Estratificado por grupos de edad 
 - Tamaño y justificación:
-Se buscará obtener entre 15 a 25 respuestas donde participe la población que fue definida. La muestra será dividida en dos grupos: personas que rondaran entre los 25 a 35 años y personas mayores de 36 años. 
-Con este método se podrán conocer las opiniones de las personas de diferentes edades, viendo si sus opiniones frente a los precios de Retail Andina con los otros supermercados.
+En un inicio, los encuestados corresponden a todas aquellas personas que se encuentran descritas en población. Posteriormente, se dividirán en dos grupos de edad: personas de 25 a 35 años y otro de 36 en adelante. Es decir, se establece un estrato por cada uno de los rangos de edad indicados anteriormente. 
+
+Se busca obtener entre 15 a 25 respuestas donde participe la población objetivo entre los dos grupos de edad. El objetivo de realizar dicha separación por estratos es comparar la percepción de los precios de RetailAndina considerando que las responsabilidades económicas, los hábitos de consumo y las prioridades al momento de realizar compras pueden variar entre personas de distintas edades. Siendo que estas diferencias podrían influir directamente en la forma en que los clientes perciben los precios y la manera en que los comparan con los de otros supermercados.
 
 - Cómo se seleccionarán los participantes:
 Buscar a las personas que cumplan con los requisitos de la población objetivo, pero primero se debe tomar en cuenta que esta será dividida en los dos grupos de edad. Después se puede incluir personas al azar de los dos grupos para comparar percepciones. 
