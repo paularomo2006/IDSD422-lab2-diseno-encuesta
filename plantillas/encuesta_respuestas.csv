@@ -1,5 +1,0 @@
-respuesta_id,fecha,ciudad,edad,genero,frecuencia_visita,satisfaccion_general,recomendaria,comentario,origen
-R001,2026-11-01,Quito,28,Femenino,semanal,4,Si,El servicio es bueno,real
-R002,2026-11-01,Guayaquil,35,Masculino,quincenal,3,No,Precios altos,real
-R003,2026-11-02,Cuenca,41,Femenino,semanal,5,Si,Excelente atención,real
-R004,2026-11-02,Quito,24,Masculino,ocasional,4,Si,,simulada
