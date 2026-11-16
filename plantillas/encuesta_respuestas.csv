@@ -1,0 +1,26 @@
+indice,fecha,hora,motivo,percepcion_precios,edad,promociones,gasto,fidelizacion,categoria_frecuente,competencia,Origen
+1,2026-01-11,18:58:25,Cercanía,Algo más económicos,Menos de 25 años,4 Atractivas,Menos de $100,3 Neutral,"Abarrotes(arroz, lentejas,etc)",Supermaxi,real
+2,2026-02-11,12:31:13,Calidad,Algo más económicos,25 a 35 años,5 Muy atractivas,Entre $100 - $250,4 Dispuesto,Cuidado personal,Tía,real
+3,2026-02-11,12:32:00,Variedad,Mucho más económicos,25 a 35 años,5 Muy atractivas,Menos de $100,5 Muy dispuesto,"Abarrotes(arroz, lentejas,etc)",Coral,real
+4,2026-02-11,16:32:43,Cercanía,Algo más económicos,36 años o más,1 Nada atractivas,Entre $100 - $250,3 Neutral,Lácteos,Tía,real
+5,2026-02-11,17:18:43,Calidad,Similares,36 años o más,4 Atractivas,Entre $100 - $250,4 Dispuesto,"Abarrotes(arroz, lentejas,etc)",Tía,real
+6,2026-02-11,22:50:40,Promociones,Algo más económicos,36 años o más,4 Atractivas,Menos de $100,4 Dispuesto,"Abarrotes(arroz, lentejas,etc)",Mi Comisariato,real
+7,2026-03-11,18:37:15,Precio,Algo más económicos,36 años o más,4 Atractivas,Superior a $250,4 Dispuesto,Cárnicos,Supermaxi,real
+8,2026-04-11,18:46:23,Calidad,Mucho más económicos,25 a 35 años,5 Muy atractivas,Menos de $100,4 Dispuesto,Cárnicos,Supermaxi,real
+9,2026-04-11,18:51:35,Precio,Mucho más económicos,36 años o más,4 Atractivas,Entre $100 - $250,3 Neutral,Lácteos,Coral,real
+10,2026-04-11,19:36:35,Precio,Mucho más económicos,36 años o más,4 Atractivas,Entre $100 - $250,3 Neutral,"Abarrotes(arroz, lentejas,etc)",Coral,real
+11,2026-04-11,19:58:51,Calidad,Algo más económicos,25 a 35 años,5 Muy atractivas,Entre $100 - $250,4 Dispuesto,"Abarrotes(arroz, lentejas,etc)","Tuti, los precios son muy bajos y la calidad de los productos muy buena",real
+12,2026-04-11,22:37:11,Calidad,Similares,Menos de 25 años,4 Atractivas,Menos de $100,3 Neutral,Cuidado personal,Coral,real
+13,2026-04-11,22:38:23,Variedad,Algo más económicos,Menos de 25 años,4 Atractivas,Menos de $100,4 Dispuesto,"Abarrotes(arroz, lentejas,etc)",Supermaxi,real
+14,2026-04-11,22:39:06,Variedad,Similares,Menos de 25 años,4 Atractivas,Superior a $250,3 Neutral,"Abarrotes(arroz, lentejas,etc)",No compara precios,real
+15,2026-04-11,22:40:39,Calidad,Algo más económicos,Menos de 25 años,3 Neutral,Entre $100 - $250,4 Dispuesto,Cárnicos,Mi Comisariato,real
+16,2026-04-11,22:41:54,Precio,Mucho más económicos,Menos de 25 años,5 Muy atractivas,Entre $100 - $250,5 Muy dispuesto,"Abarrotes(arroz, lentejas,etc)",Supermaxi,real
+17,2026-04-11,22:53:45,Calidad,Similares,Menos de 25 años,4 Atractivas,Menos de $100,4 Dispuesto,Cuidado personal,Mi Comisariato,real
+18,2026-04-11,23:15:33,Calidad,Similares,Menos de 25 años,3 Neutral,Entre $100 - $250,2 Poco dispuesto,Lácteos,No compara precios,real
+19,2026-05-11,6:01:31,Precio,Algo más económicos,Menos de 25 años,4 Atractivas,Entre $100 - $250,4 Dispuesto,"Abarrotes(arroz, lentejas,etc)",Tía,real
+20,2026-05-11,7:12:10,Promociones,Algo más económicos,Menos de 25 años,4 Atractivas,Menos de $100,4 Dispuesto,Cárnicos,Supermaxi,real
+21,2026-05-11,7:12:30,Variedad,Algo más económicos,Menos de 25 años,4 Atractivas,Entre $100 - $250,3 Neutral,Cuidado personal,Coral,real
+22,2026-05-11,9:20:46,Precio,Mucho más económicos,36 años o más,2 Poco atractivas,Entre $100 - $250,4 Dispuesto,Cárnicos,Mi Comisariato,real
+23,2026-05-11,9:28:34,Calidad,Algo más económicos,25 a 35 años,3 Neutral,Menos de $100,3 Neutral,Lácteos,Coral,real
+24,2026-05-11,9:31:24,Promociones,Similares,36 años o más,3 Neutral,Menos de $100,3 Neutral,Cárnicos,Tía,real
+25,2026-05-11,18:07:30,Variedad,Similares,Menos de 25 años,4 Atractivas,Menos de $100,3 Neutral,Limpieza del hogar,Mi Comisariato,real
