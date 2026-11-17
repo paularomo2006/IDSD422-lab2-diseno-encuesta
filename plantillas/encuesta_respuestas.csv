@@ -24,3 +24,78 @@ indice,fecha,hora,motivo,percepcion_precios,edad,promociones,gasto,fidelizacion,
 23,2026-05-11,9:28:34,Calidad,Algo más económicos,25 a 35 años,3 Neutral,Menos de $100,3 Neutral,Lácteos,Coral,real
 24,2026-05-11,9:31:24,Promociones,Similares,36 años o más,3 Neutral,Menos de $100,3 Neutral,Cárnicos,Tía,real
 25,2026-05-11,18:07:30,Variedad,Similares,Menos de 25 años,4 Atractivas,Menos de $100,3 Neutral,Limpieza del hogar,Mi Comisariato,real
+26,2026-14-11,16:36:09,Calidad,Algo más económicos,25 a 35 años,3 Neutral,Superior a $250,4 Dispuesto,Cuidado personal,Tuti,simulada
+27,2026-12-11,17:14:53,Calidad,Mucho más económicos,36 años o más,1 Nada atractivas,Entre $100 - $250,4 Dispuesto,Cuidado personal,No compara precios,simulada
+28,2026-06-11,15:50:52,Calidad,Similares,Menos de 25 años,4 Atractivas,Menos de $100,2 Poco dispuesto,Lácteos,Tuti,simulada
+29,2026-13-11,7:53:45,Variedad,Mucho más económicos,Menos de 25 años,2 Poco atractivas,Menos de $100,4 Dispuesto,Limpieza del hogar,Coral,simulada
+30,2026-08-11,16:10:48,Precio,Algo más económicos,36 años o más,3 Neutral,Menos de $100,4 Dispuesto,"Abarrotes(arroz, lentejas,etc)",Mi Comisariato,simulada
+31,2026-08-11,11:39:27,Promociones,Mucho más económicos,25 a 35 años,3 Neutral,Entre $100 - $250,2 Poco dispuesto,Limpieza del hogar,Tía,simulada
+32,2026-08-11,18:14:29,Calidad,Algo más económicos,Menos de 25 años,3 Neutral,Entre $100 - $250,5 Muy dispuesto,Lácteos,Mi Comisariato,simulada
+33,2026-15-11,22:46:37,Calidad,Algo más económicos,Menos de 25 años,5 Muy atractivas,Entre $100 - $250,3 Neutral,Limpieza del hogar,Tuti,simulada
+34,2026-07-11,17:12:59,Precio,Mucho más económicos,36 años o más,2 Poco atractivas,Menos de $100,5 Muy dispuesto,Cárnicos,Tuti,simulada
+35,2026-12-11,15:38:40,Calidad,Algo más económicos,36 años o más,2 Poco atractivas,Superior a $250,5 Muy dispuesto,Cárnicos,Mi Comisariato,simulada
+36,2026-16-11,21:47:07,Cercanía,Mucho más económicos,25 a 35 años,4 Atractivas,Superior a $250,2 Poco dispuesto,Cuidado personal,Coral,simulada
+37,2026-12-11,11:46:33,Variedad,Mucho más económicos,36 años o más,3 Neutral,Entre $100 - $250,3 Neutral,"Abarrotes(arroz, lentejas,etc)",Mi Comisariato,simulada
+38,2026-16-11,21:57:53,Precio,Algo más económicos,Menos de 25 años,2 Poco atractivas,Entre $100 - $250,4 Dispuesto,Lácteos,Tía,simulada
+39,2026-05-11,12:33:33,Cercanía,Mucho más económicos,25 a 35 años,2 Poco atractivas,Entre $100 - $250,3 Neutral,Lácteos,Coral,simulada
+40,2026-07-11,17:58:04,Variedad,Algo más económicos,25 a 35 años,2 Poco atractivas,Menos de $100,4 Dispuesto,Limpieza del hogar,Tía,simulada
+41,2026-07-11,17:52:42,Precio,Similares,25 a 35 años,4 Atractivas,Superior a $250,2 Poco dispuesto,Lácteos,Coral,simulada
+42,2026-12-11,17:33:23,Calidad,Similares,25 a 35 años,2 Poco atractivas,Superior a $250,4 Dispuesto,Cárnicos,Coral,simulada
+43,2026-13-11,21:19:38,Variedad,Similares,Menos de 25 años,5 Muy atractivas,Entre $100 - $250,3 Neutral,Cárnicos,No compara precios,simulada
+44,2026-08-11,22:19:53,Calidad,Similares,Menos de 25 años,4 Atractivas,Entre $100 - $250,4 Dispuesto,Cuidado personal,Coral,simulada
+45,2026-10-11,14:46:39,Calidad,Similares,Menos de 25 años,4 Atractivas,Superior a $250,4 Dispuesto,Cuidado personal,Supermaxi,simulada
+46,2026-13-11,20:01:50,Cercanía,Similares,36 años o más,1 Nada atractivas,Menos de $100,3 Neutral,Lácteos,Tía,simulada
+47,2026-08-11,17:20:41,Variedad,Mucho más económicos,Menos de 25 años,3 Neutral,Superior a $250,3 Neutral,Cárnicos,Mi Comisariato,simulada
+48,2026-15-11,20:51:32,Promociones,Similares,36 años o más,4 Atractivas,Superior a $250,3 Neutral,Limpieza del hogar,Supermaxi,simulada
+49,2026-05-11,18:08:16,Cercanía,Algo más económicos,25 a 35 años,2 Poco atractivas,Entre $100 - $250,4 Dispuesto,Lácteos,Supermaxi,simulada
+50,2026-06-11,20:03:41,Cercanía,Mucho más económicos,25 a 35 años,5 Muy atractivas,Menos de $100,3 Neutral,Lácteos,Tía,simulada
+51,2026-08-11,9:29:48,Calidad,Similares,Menos de 25 años,5 Muy atractivas,Entre $100 - $250,3 Neutral,"Abarrotes(arroz, lentejas,etc)",Mi Comisariato,simulada
+52,2026-16-11,18:57:29,Promociones,Mucho más económicos,Menos de 25 años,5 Muy atractivas,Menos de $100,3 Neutral,"Abarrotes(arroz, lentejas,etc)",Tía,simulada
+53,2026-14-11,17:07:46,Precio,Algo más económicos,Menos de 25 años,1 Nada atractivas,Superior a $250,2 Poco dispuesto,Lácteos,Tía,simulada
+54,2026-15-11,12:49:51,Calidad,Similares,Menos de 25 años,5 Muy atractivas,Entre $100 - $250,4 Dispuesto,Lácteos,No compara precios,simulada
+55,2026-08-11,10:07:37,Cercanía,Algo más económicos,25 a 35 años,5 Muy atractivas,Menos de $100,4 Dispuesto,Limpieza del hogar,No compara precios,simulada
+56,2026-09-11,13:51:01,Variedad,Mucho más económicos,Menos de 25 años,2 Poco atractivas,Superior a $250,5 Muy dispuesto,Cuidado personal,Mi Comisariato,simulada
+57,2026-10-11,19:15:56,Calidad,Mucho más económicos,36 años o más,5 Muy atractivas,Menos de $100,2 Poco dispuesto,Cárnicos,Coral,simulada
+58,2026-07-11,22:54:35,Cercanía,Similares,36 años o más,4 Atractivas,Menos de $100,4 Dispuesto,Limpieza del hogar,Supermaxi,simulada
+59,2026-08-11,9:14:38,Calidad,Algo más económicos,36 años o más,2 Poco atractivas,Superior a $250,2 Poco dispuesto,Cárnicos,Coral,simulada
+60,2026-09-11,15:47:54,Precio,Similares,36 años o más,5 Muy atractivas,Superior a $250,5 Muy dispuesto,Lácteos,Supermaxi,simulada
+61,2026-14-11,13:48:02,Cercanía,Similares,36 años o más,3 Neutral,Menos de $100,3 Neutral,Limpieza del hogar,Supermaxi,simulada
+62,2026-06-11,22:25:44,Variedad,Mucho más económicos,Menos de 25 años,2 Poco atractivas,Menos de $100,2 Poco dispuesto,Lácteos,Tía,simulada
+63,2026-08-11,22:19:59,Cercanía,Similares,Menos de 25 años,3 Neutral,Menos de $100,5 Muy dispuesto,Cárnicos,Mi Comisariato,simulada
+64,2026-10-11,15:26:46,Promociones,Similares,Menos de 25 años,5 Muy atractivas,Entre $100 - $250,2 Poco dispuesto,"Abarrotes(arroz, lentejas,etc)",Mi Comisariato,simulada
+65,2026-12-11,15:15:48,Precio,Algo más económicos,Menos de 25 años,1 Nada atractivas,Entre $100 - $250,2 Poco dispuesto,Cárnicos,Supermaxi,simulada
+66,2026-13-11,20:09:44,Precio,Similares,25 a 35 años,4 Atractivas,Superior a $250,5 Muy dispuesto,Cárnicos,No compara precios,simulada
+67,2026-09-11,13:41:21,Cercanía,Algo más económicos,Menos de 25 años,2 Poco atractivas,Superior a $250,4 Dispuesto,Limpieza del hogar,Tuti,simulada
+68,2026-15-11,17:29:25,Cercanía,Algo más económicos,36 años o más,2 Poco atractivas,Superior a $250,5 Muy dispuesto,Limpieza del hogar,Coral,simulada
+69,2026-15-11,19:38:27,Promociones,Similares,25 a 35 años,3 Neutral,Superior a $250,4 Dispuesto,Lácteos,Supermaxi,simulada
+70,2026-05-11,17:52:49,Precio,Mucho más económicos,36 años o más,4 Atractivas,Superior a $250,4 Dispuesto,Cuidado personal,Coral,simulada
+71,2026-13-11,15:59:06,Variedad,Algo más económicos,25 a 35 años,4 Atractivas,Menos de $100,2 Poco dispuesto,Cárnicos,Tuti,simulada
+72,2026-07-11,21:14:30,Cercanía,Mucho más económicos,Menos de 25 años,2 Poco atractivas,Entre $100 - $250,2 Poco dispuesto,Cuidado personal,Mi Comisariato,simulada
+73,2026-16-11,8:32:14,Promociones,Algo más económicos,36 años o más,1 Nada atractivas,Menos de $100,4 Dispuesto,Lácteos,Mi Comisariato,simulada
+74,2026-08-11,22:36:24,Variedad,Similares,25 a 35 años,3 Neutral,Menos de $100,5 Muy dispuesto,Cárnicos,Tuti,simulada
+75,2026-05-11,11:12:04,Variedad,Mucho más económicos,36 años o más,4 Atractivas,Entre $100 - $250,3 Neutral,Limpieza del hogar,Coral,simulada
+76,2026-12-11,21:05:35,Calidad,Mucho más económicos,25 a 35 años,4 Atractivas,Entre $100 - $250,2 Poco dispuesto,Lácteos,Supermaxi,simulada
+77,2026-11-11,17:52:21,Cercanía,Similares,36 años o más,5 Muy atractivas,Superior a $250,2 Poco dispuesto,Cuidado personal,Mi Comisariato,simulada
+78,2026-12-11,17:14:48,Promociones,Algo más económicos,36 años o más,1 Nada atractivas,Superior a $250,4 Dispuesto,Cárnicos,Supermaxi,simulada
+79,2026-16-11,14:44:42,Cercanía,Algo más económicos,25 a 35 años,3 Neutral,Menos de $100,2 Poco dispuesto,Cárnicos,No compara precios,simulada
+80,2026-15-11,14:43:00,Cercanía,Mucho más económicos,25 a 35 años,1 Nada atractivas,Entre $100 - $250,5 Muy dispuesto,Lácteos,Coral,simulada
+81,2026-14-11,13:32:52,Precio,Mucho más económicos,Menos de 25 años,2 Poco atractivas,Menos de $100,5 Muy dispuesto,Cárnicos,Tía,simulada
+82,2026-10-11,11:47:54,Variedad,Mucho más económicos,Menos de 25 años,2 Poco atractivas,Menos de $100,2 Poco dispuesto,Cárnicos,Coral,simulada
+83,2026-05-11,12:32:56,Cercanía,Algo más económicos,Menos de 25 años,2 Poco atractivas,Entre $100 - $250,3 Neutral,Cárnicos,Supermaxi,simulada
+84,2026-06-11,18:47:49,Variedad,Similares,25 a 35 años,2 Poco atractivas,Entre $100 - $250,4 Dispuesto,Cuidado personal,Mi Comisariato,simulada
+85,2026-11-11,10:36:50,Promociones,Similares,25 a 35 años,3 Neutral,Entre $100 - $250,2 Poco dispuesto,"Abarrotes(arroz, lentejas,etc)",Mi Comisariato,simulada
+86,2026-05-11,10:49:44,Cercanía,Mucho más económicos,Menos de 25 años,4 Atractivas,Menos de $100,2 Poco dispuesto,Lácteos,Mi Comisariato,simulada
+87,2026-12-11,21:31:32,Calidad,Mucho más económicos,36 años o más,4 Atractivas,Superior a $250,2 Poco dispuesto,Cuidado personal,Mi Comisariato,simulada
+88,2026-14-11,17:53:14,Variedad,Similares,25 a 35 años,2 Poco atractivas,Menos de $100,2 Poco dispuesto,"Abarrotes(arroz, lentejas,etc)",Supermaxi,simulada
+89,2026-08-11,22:02:22,Cercanía,Mucho más económicos,25 a 35 años,1 Nada atractivas,Menos de $100,5 Muy dispuesto,"Abarrotes(arroz, lentejas,etc)",No compara precios,simulada
+90,2026-14-11,7:24:11,Variedad,Algo más económicos,Menos de 25 años,2 Poco atractivas,Entre $100 - $250,4 Dispuesto,Limpieza del hogar,Supermaxi,simulada
+91,2026-07-11,9:49:58,Variedad,Mucho más económicos,36 años o más,5 Muy atractivas,Entre $100 - $250,5 Muy dispuesto,Cárnicos,Supermaxi,simulada
+92,2026-13-11,15:05:58,Promociones,Similares,36 años o más,2 Poco atractivas,Superior a $250,4 Dispuesto,Cuidado personal,Supermaxi,simulada
+93,2026-07-11,15:40:05,Variedad,Similares,Menos de 25 años,4 Atractivas,Menos de $100,4 Dispuesto,Limpieza del hogar,No compara precios,simulada
+94,2026-16-11,17:34:51,Cercanía,Algo más económicos,Menos de 25 años,2 Poco atractivas,Superior a $250,5 Muy dispuesto,Lácteos,Supermaxi,simulada
+95,2026-16-11,21:48:21,Calidad,Algo más económicos,25 a 35 años,1 Nada atractivas,Menos de $100,5 Muy dispuesto,Cuidado personal,Mi Comisariato,simulada
+96,2026-11-11,11:03:53,Promociones,Mucho más económicos,Menos de 25 años,4 Atractivas,Entre $100 - $250,5 Muy dispuesto,Cuidado personal,Mi Comisariato,simulada
+97,2026-16-11,14:23:19,Cercanía,Algo más económicos,36 años o más,4 Atractivas,Menos de $100,3 Neutral,Cuidado personal,Coral,simulada
+98,2026-10-11,12:35:08,Promociones,Mucho más económicos,36 años o más,1 Nada atractivas,Superior a $250,4 Dispuesto,Limpieza del hogar,Tía,simulada
+99,2026-11-11,13:19:23,Variedad,Similares,Menos de 25 años,2 Poco atractivas,Entre $100 - $250,3 Neutral,Limpieza del hogar,Tía,simulada
+100,2026-08-11,22:22:36,Calidad,Similares,36 años o más,2 Poco atractivas,Superior a $250,4 Dispuesto,"Abarrotes(arroz, lentejas,etc)",No compara precios,simulada
